@@ -88,27 +88,33 @@ function App() {
 
       <div className="container">
         <div className="box">
-          <img className="bookImage"src="https://m.media-amazon.com/images/I/619sSmzbUjL._AC_SY200_.jpg"alt=""/>
+          <img className="Image"src="https://m.media-amazon.com/images/I/619sSmzbUjL._AC_SY200_.jpg"alt=""/>
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
         <div className="box">
-          <img className="bookImage"src="https://m.media-amazon.com/images/I/71wGvVv88uL._AC_SY200_.jpg"alt=""/>
+          <img className="Image"src="https://m.media-amazon.com/images/I/71wGvVv88uL._AC_SY200_.jpg"alt=""/>
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
         <div className="box">
-          <img className="bookImage"src="https://m.media-amazon.com/images/I/61-l-DKrlsL._AC_SY200_.jpg"alt=""/>
+          <img className="Image"src="https://m.media-amazon.com/images/I/61-l-DKrlsL._AC_SY200_.jpg"alt=""/>
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
         <div className="box">
-          <img className="bookImage"src="https://m.media-amazon.com/images/I/71aHbP5M2HL._AC_SY200_.jpg"alt=""/>
+          <img className="Image"src="https://m.media-amazon.com/images/I/71aHbP5M2HL._AC_SY200_.jpg"alt=""/>
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
         <div className="box">
-          <img className="bookImage" src="https://m.media-amazon.com/images/I/51WmCssta3L._AC_SY200_.jpg"alt=""/>
+          <img className="Image" src="https://m.media-amazon.com/images/I/51WmCssta3L._AC_SY200_.jpg"alt=""/>
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
         <div className="box">
-          <img className="bookImage"src="https://m.media-amazon.com/images/I/41ggFXk-slL._AC_SY200_.jpg"alt="" />
+          <img className="Image"src="https://m.media-amazon.com/images/I/41ggFXk-slL._AC_SY200_.jpg"alt="" />
+          <button onClick={() => setCart(cart + 1)}> Add to Cart  </button>
         </div>
 
       </div>
@@ -139,6 +145,8 @@ function App() {
       <div>
         <img className="sale-img" src="https://imgeng.jagran.com/images/2023/jul/Amazon%20Prime%20Day%20Sale%2020231688734756797.jpeg" alt="" />
       </div>
+
+      <br></br>
 
       <footer>
         <div className="footer-container">
